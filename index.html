@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A weather forecast app">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://icons8.com/icon/80502/sun">
+	<script defer src="script.js"></script>
+	<title>Weather App</title>
+</head>
+<body>
+	<div id="container">
+		<header id="header">
+			<h1>Weather App</h1>
+			<img src="https://img.icons8.com/doodle/96/000000/sun--v1.png"/>
+		</header>
+		<section>
+			<input type="text" id="searchbar" autocomplete="off" placeholder="Search for city or state...">
+		</section>
+		<section id="weather-container" class="hide">
+			<div id="location">
+				<div id="city"></div>
+				<div id="date"></div>
+			</div>
+			<div id="weather-info">
+				<img id="weather-icon" src="" alt="weather-icon"/>
+				<div id="weather"></div>
+			</div>
+			<div id="temp-info">
+				<div id="temp"></div>
+				<div id="hi-low"></div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

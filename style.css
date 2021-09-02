@@ -1,0 +1,72 @@
+/*===== Base =====*/
+body {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial;
+	background-image: url("images/background-img.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/*===== Layout =====*/
+#container {
+	padding: 2rem;
+	border-radius: 25px;
+	text-align: center;
+	background-color: rgba(105, 105, 105, 0.5);
+	color: white;
+}
+
+/*===== Components =====*/
+#header {
+	margin-bottom: 1.5rem;
+}
+
+#header h1 {
+	margin-bottom: 0.5rem;
+}
+
+#searchbar {
+	padding: 0.5rem 1rem;
+	transition: all .2s ease-in-out;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+}
+
+#searchbar:focus {
+	transform: scale(1.1); 
+}
+
+#weather-container {
+	margin: 1.5rem 0rem 0rem 0rem;
+}
+
+#city {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+#weather-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#weather {
+	margin-bottom: 0;
+}
+
+#temp {
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.hide {
+	display: none;
+}
